@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+    name: webserver-service
+spec:
+    selector:
+        app: webserver-app
+    ports:
+        - name: http
+          protocol: TCP
+          port: 80
+    externalIPs: 
+        - 10.0.2.15
