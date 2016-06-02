@@ -1,38 +1,63 @@
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Hello Static World!</title>
         <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css"/>
 
     </head>
     <body>
-        <div class="page-header">
-         <h2>Michiel's Kubernetes Experiment <small>fun</small></h2>
-        </div>  
-    	<div class="jumbotron">
-          <div class="container">
-            <h3>It starts.</h3>
-            <p>
-                The goal of this is to become something bigger, providing a 
-                playground for me to test things. This is currently being
-                deployed with kubernetes. 
-            </p>
-            <h4>The current layout</h4>
-            <ul>
-                <li>Kubernetes on Standalone Docker</li>
-                <li>Nginx serving static files on port 80</li>
-                <li>Single AWS server</li>
-                <li>A little bootstap to make it feel nicere</li>
-            </ul>
-            <p>
-                I have a hope that this setup can become educational aswell. 
-                Showing how I do every step. Not commiting to this but it's an idea.
-            </p>
+        <nav class="navbar navbar-inverse navbar-fixed-top"> 
+            <div class="container">                 
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="#">Michiel's Experiment</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                </div><!--/.navbar-collapse -->
+            </div>
           </div>
+        </nav>
+        <div class="row">
+            <div class="col-md-2">
+                <!--<h4>Navigation Stub</h4> -->
+            </div>
+            <div class="col-md-10">
+        	<div class="jumbotron">
+                <div class="container">
+                    <h2>My playground exists now</h2>
+                    <p>
+                        The goal of this is to become something bigger, providing a playground for me to test things. This is currently being deployed with kubernetes. As this goes along I guess it also becomes a showcase of what I have done. I am not sure how this will grow. Stay tuned.
+                    </p>
+              </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>The current layout</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">Kubernetes on Standalone Docker</li>
+                            <li class="list-group-item">Nginx serving static files on port 80</li>
+                            <li class="list-group-item">Single AWS server</li>
+                            <li class="list-group-item">A little bootstap to make it feel nicer</li>
+                        </ul>
+                        <p>
+                            I have a hope that this setup can become educational aswell. Showing how I do every step. Not commiting to this but it's an idea.
+                        </p>
+                    </div>
+              </div>
+            </div>
+            </div>
         </div>
+    <footer>
+        <p>Michiel Johan Baird</p>
+    </footer>
+
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
