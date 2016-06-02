@@ -1,10 +1,40 @@
 <html>
     <head>
-       <title>Hello Static World!</title>
-    <head>
+        <title>Hello Static World!</title>
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    </head>
     <body>
-	<h3>Michiel's (now little) Kubernetes Experiment</h3>
-	<hr/>
-	<p>This is quite ugly but it's a start</p>
+        <div class="page-header">
+         <h2>Michiel's Kubernetes Experiment <small>fun</small></h2>
+        </div>  
+    	<div class="jumbotron">
+          <div class="container">
+            <h3>It starts.</h3>
+            <p>
+                The goal of this is to become something bigger, providing a 
+                playground for me to test things. This is currently being
+                deployed with kubernetes. 
+            </p>
+            <h4>The current layout</h4>
+            <ul>
+                <li>Kubernetes on Standalone Docker</li>
+                <li>Nginx serving static files on port 80</li>
+                <li>Single AWS server</li>
+                <li>A little bootstap to make it feel nicere</li>
+            </ul>
+            <p>
+                I have a hope that this setup can become educational aswell. 
+                Showing how I do every step. Not commiting to this but it's an idea.
+            </p>
+          </div>
+        </div>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     </body>
 </html>
